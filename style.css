@@ -730,6 +730,16 @@ section{
         width: 370px;
         max-width: 100%;
     }
+    .ammenities {
+        display: block;
+    }
+    .ammenities-text {
+        margin: 10px;
+        text-align: left;
+    }
+    .ammenities-img{
+        display: none;
+    }
     .menu-content {
         grid-template-columns: repeat(2, minmax(150px, auto));
         gap: 1.5rem;
@@ -767,6 +777,24 @@ section{
         --big-font: 2.7rem;
         --h2-font: 1.8rem;
         --p-font: 0.9rem;
+    }
+}
+@media (max-width: 420px){
+    .row-img img {
+        width: 80%;
+        height: 80%;
+    }
+    #menu1 {
+        margin-top: 50px;
+    }
+    #contact-details {
+        margin-top: 50px;
+    }
+    #form-details {
+        padding: 20px;
+    }
+    #categories{
+        margin-top: 25px;
     }
 }
 
