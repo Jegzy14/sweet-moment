@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Meal</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--BOX Icons Link-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <script src="https://kit.fontawesome.com/cacb502324.js" crossorigin="anonymous"></script>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+
+    <!--header-->
+    <header>
+        <a href="index.html" class="logo">
+            <img src="images/logo.png">
+        </a>
+
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html" class="active">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="header-icons">
+            <a href="#"><i class="bx bx-search"></i></a>
+            <a href="#"><i class='bx bxs-bell'></i></a>
+            <a href="#"><i class='bx bxs-cart'></i></a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+
+            <!-----------------Dark Mode--------------------->
+            <div class="bx bx-moon" id="darkmode"></div>
+        </div>
+    </header>
+
+
+   <!------------Menu------------>
+   <section class="menu" id="menu1">
+    <div class="center-text">
+        <strong>Our Popular Menu</strong>
+        <h2>Popular Cuisine</h2>
+    </div>
+    <div class="menu-content">
+        <div class="row">
+            <div class="row-img">
+                <img src="images/cd.png">
+            </div>
+            <h5>Chicken Dish</h5>
+            <h6>₦2,000</h6>
+            <div class="ratings">
+                <a href="#"><i class='bx bxs-star'></i></a>
+                <a href="#"><i class='bx bxs-star'></i></a>
+                <a href="#"><i class='bx bxs-star'></i></a>
+                <a href="#"><i class='bx bxs-star'></i></a>
+                <a href="#"><i class='bx bxs-star-half'></i></a>
+            </div>
+        </div>
+
+        <div class="row">
+        <div class="row-img">
+            <img src="images/cc.png">
+        </div>
+        <h5>Chocolate Cake</h5>
+        <h6>₦1,800</h6>
+        <div class="ratings">
+            <a href="#"><i class='bx bxs-star'></i></a>
+            <a href="#"><i class='bx bxs-star'></i></a>
+            <a href="#"><i class='bx bxs-star'></i></a>
+            <a href="#"><i class='bx bxs-star'></i></a>
+            <a href="#"><i class='bx bxs-star-half'></i></a>
+        </div>
+    </div>
+
+    <div class="row">
+    <div class="row-img">
+        <img src="images/nr.png">
+    </div>
+    <h5>Nigeria Ramen</h5>
+    <h6>₦1,200</h6>
+    <div class="ratings">
+        <a href="#"><i class='bx bxs-star'></i></a>
+        <a href="#"><i class='bx bxs-star'></i></a>
+        <a href="#"><i class='bx bxs-star'></i></a>
+        <a href="#"><i class='bx bxs-star'></i></a>
+        <a href="#"><i class='bx bxs-star-half'></i></a>
+    </div>
+</div>
+
+<div class="row">
+<div class="row-img">
+    <img src="images/fr.png">
+</div>
+<h5>Rice & Egg Sauce</h5>
+<h6>₦800</h6>
+<div class="ratings">
+    <a href="#"><i class='bx bxs-star'></i></a>
+    <a href="#"><i class='bx bxs-star'></i></a>
+    <a href="#"><i class='bx bxs-star'></i></a>
+    <a href="#"><i class='bx bxs-star'></i></a>
+    <a href="#"><i class='bx bxs-star-half'></i></a>
+</div>
+</div>
+
+<div class="row">
+    <div class="row-img">
+        <img src="images/fy.png">
+    </div>
+    <h5>Fried Yam</h5>
+    <h6>₦1,000</h6>
+    <div class="ratings">
+        <a href="#"><i class='bx bxs-star'></i></a>
+        <a href="#"><i class='bx bxs-star'></i></a>
+        <a href="#"><i class='bx bxs-star'></i></a>
+        <a href="#"><i class='bx bxs-star'></i></a>
+        <a href="#"><i class='bx bxs-star-half'></i></a>
+    </div>
+</div>
+
+<div class="row">
+<div class="row-img">
+    <img src="images/fp.png">
+</div>
+<h5>Fried Potato</h5>
+<h6>₦700</h6>
+<div class="ratings">
+    <a href="#"><i class='bx bxs-star'></i></a>
+    <a href="#"><i class='bx bxs-star'></i></a>
+    <a href="#"><i class='bx bxs-star'></i></a>
+    <a href="#"><i class='bx bxs-star'></i></a>
+    <a href="#"><i class='bx bxs-star-half'></i></a>
+</div>
+</div>
+
+<div class="row">
+<div class="row-img">
+<img src="images/fpl.png">
+</div>
+<h5>Fried Plaintain</h5>
+<h6>₦1,000</h6>
+<div class="ratings">
+<a href="#"><i class='bx bxs-star'></i></a>
+<a href="#"><i class='bx bxs-star'></i></a>
+<a href="#"><i class='bx bxs-star'></i></a>
+<a href="#"><i class='bx bxs-star'></i></a>
+<a href="#"><i class='bx bxs-star-half'></i></a>
+</div>
+</div>
+
+<div class="row">
+<div class="row-img">
+<img src="images/ff.png">
+</div>
+<h5>French Fries</h5>
+<h6>₦1,500</h6>
+<div class="ratings">
+<a href="#"><i class='bx bxs-star'></i></a>
+<a href="#"><i class='bx bxs-star'></i></a>
+<a href="#"><i class='bx bxs-star'></i></a>
+<a href="#"><i class='bx bxs-star'></i></a>
+<a href="#"><i class='bx bxs-star-half'></i></a>
+</div>
+</div>
+
+<div class="row">
+    <div class="row-img">
+        <img src="images/fri.png">
+    </div>
+    <h5>Fried Rice</h5>
+    <h6>₦1,200</h6>
+    <div class="ratings">
+        <a href="#"><i class='bx bxs-star'></i></a>
+        <a href="#"><i class='bx bxs-star'></i></a>
+        <a href="#"><i class='bx bxs-star'></i></a>
+        <a href="#"><i class='bx bxs-star'></i></a>
+        <a href="#"><i class='bx bxs-star-half'></i></a>
+    </div>
+</div>
+
+<div class="row">
+<div class="row-img">
+    <img src="images/jr.png">
+</div>
+<h5>Jollof Rice</h5>
+<h6>₦1,000</h6>
+<div class="ratings">
+    <a href="#"><i class='bx bxs-star'></i></a>
+    <a href="#"><i class='bx bxs-star'></i></a>
+    <a href="#"><i class='bx bxs-star'></i></a>
+    <a href="#"><i class='bx bxs-star'></i></a>
+    <a href="#"><i class='bx bxs-star-half'></i></a>
+</div>
+</div>
+
+<div class="row">
+<div class="row-img">
+<img src="images/sm.png">
+</div>
+<h5>Spaghetti Meatball</h5>
+<h6>₦2,000</h6>
+<div class="ratings">
+<a href="#"><i class='bx bxs-star'></i></a>
+<a href="#"><i class='bx bxs-star'></i></a>
+<a href="#"><i class='bx bxs-star'></i></a>
+<a href="#"><i class='bx bxs-star'></i></a>
+<a href="#"><i class='bx bxs-star-half'></i></a>
+</div>
+</div>
+
+<div class="row">
+<div class="row-img">
+<img src="images/b.png">
+</div>
+<h5>Beans</h5>
+<h6>₦500</h6>
+<div class="ratings">
+<a href="#"><i class='bx bxs-star'></i></a>
+<a href="#"><i class='bx bxs-star'></i></a>
+<a href="#"><i class='bx bxs-star'></i></a>
+<a href="#"><i class='bx bxs-star'></i></a>
+<a href="#"><i class='bx bxs-star-half'></i></a>
+</div>
+</div>
+
+<div class="row">
+    <div class="row-img">
+        <img src="images/br.png">
+    </div>
+    <h5>Bread</h5>
+    <h6>₦1,000</h6>
+    <div class="ratings">
+        <a href="#"><i class='bx bxs-star'></i></a>
+        <a href="#"><i class='bx bxs-star'></i></a>
+        <a href="#"><i class='bx bxs-star'></i></a>
+        <a href="#"><i class='bx bxs-star'></i></a>
+        <a href="#"><i class='bx bxs-star-half'></i></a>
+    </div>
+</div>
+
+<div class="row">
+<div class="row-img">
+    <img src="images/s.png">
+</div>
+<h5>Sandwich</h5>
+<h6>₦800</h6>
+<div class="ratings">
+    <a href="#"><i class='bx bxs-star'></i></a>
+    <a href="#"><i class='bx bxs-star'></i></a>
+    <a href="#"><i class='bx bxs-star'></i></a>
+    <a href="#"><i class='bx bxs-star'></i></a>
+    <a href="#"><i class='bx bxs-star-half'></i></a>
+</div>
+</div>
+
+<div class="row">
+<div class="row-img">
+<img src="images/fs.png">
+</div>
+<h5>Fruit Salad</h5>
+<h6>₦1,000</h6>
+<div class="ratings">
+<a href="#"><i class='bx bxs-star'></i></a>
+<a href="#"><i class='bx bxs-star'></i></a>
+<a href="#"><i class='bx bxs-star'></i></a>
+<a href="#"><i class='bx bxs-star'></i></a>
+<a href="#"><i class='bx bxs-star-half'></i></a>
+</div>
+</div>
+
+<div class="row">
+<div class="row-img">
+<img src="images/ic.png">
+</div>
+<h5>Ice Cream</h5>
+<h6>₦1,500</h6>
+<div class="ratings">
+<a href="#"><i class='bx bxs-star'></i></a>
+<a href="#"><i class='bx bxs-star'></i></a>
+<a href="#"><i class='bx bxs-star'></i></a>
+<a href="#"><i class='bx bxs-star'></i></a>
+<a href="#"><i class='bx bxs-star-half'></i></a>
+</div>
+</div>
+
+<div class="row">
+    <div class="row-img">
+        <img src="images/pb.png">
+    </div>
+    <h5>Peppered Steam Beef</h5>
+    <h6>₦1,000</h6>
+    <div class="ratings">
+        <a href="#"><i class='bx bxs-star'></i></a>
+        <a href="#"><i class='bx bxs-star'></i></a>
+        <a href="#"><i class='bx bxs-star'></i></a>
+        <a href="#"><i class='bx bxs-star'></i></a>
+        <a href="#"><i class='bx bxs-star-half'></i></a>
+    </div>
+</div>
+
+<div class="row">
+<div class="row-img">
+    <img src="images/pc.png">
+</div>
+<h5>Peppered Steam Chicken/Turkey</h5>
+<h6>₦1,500</h6>
+<div class="ratings">
+    <a href="#"><i class='bx bxs-star'></i></a>
+    <a href="#"><i class='bx bxs-star'></i></a>
+    <a href="#"><i class='bx bxs-star'></i></a>
+    <a href="#"><i class='bx bxs-star'></i></a>
+    <a href="#"><i class='bx bxs-star-half'></i></a>
+</div>
+</div>
+
+<div class="row">
+<div class="row-img">
+<img src="images/fj.png">
+</div>
+<h5>Fruit Juice</h5>
+<h6>₦1,000</h6>
+<div class="ratings">
+<a href="#"><i class='bx bxs-star'></i></a>
+<a href="#"><i class='bx bxs-star'></i></a>
+<a href="#"><i class='bx bxs-star'></i></a>
+<a href="#"><i class='bx bxs-star'></i></a>
+<a href="#"><i class='bx bxs-star-half'></i></a>
+</div>
+</div>
+
+<div class="row">
+<div class="row-img">
+<img src="images/co.png">
+</div>
+<h5>Cocktails</h5>
+<h6>₦1,000</h6>
+<div class="ratings">
+<a href="#"><i class='bx bxs-star'></i></a>
+<a href="#"><i class='bx bxs-star'></i></a>
+<a href="#"><i class='bx bxs-star'></i></a>
+<a href="#"><i class='bx bxs-star'></i></a>
+<a href="#"><i class='bx bxs-star-half'></i></a>
+</div>
+</div>
+
+<div class="row">
+    <div class="row-img">
+    <img src="images/be.png">
+    </div>
+    <h5>Beer</h5>
+    <h6>₦700</h6>
+    <div class="ratings">
+    <a href="#"><i class='bx bxs-star'></i></a>
+    <a href="#"><i class='bx bxs-star'></i></a>
+    <a href="#"><i class='bx bxs-star'></i></a>
+    <a href="#"><i class='bx bxs-star'></i></a>
+    <a href="#"><i class='bx bxs-star-half'></i></a>
+    </div>
+    </div>
+
+    <div class="row">
+        <div class="row-img">
+        <img src="images/pbc.png">
+        </div>
+        <h5>Peanut Banana Cake</h5>
+        <h6>₦1,000</h6>
+        <div class="ratings">
+        <a href="#"><i class='bx bxs-star'></i></a>
+        <a href="#"><i class='bx bxs-star'></i></a>
+        <a href="#"><i class='bx bxs-star'></i></a>
+        <a href="#"><i class='bx bxs-star'></i></a>
+        <a href="#"><i class='bx bxs-star-half'></i></a>
+        </div>
+        </div>
+
+        <div class="row">
+            <div class="row-img">
+            <img src="images/rv.png">
+            </div>
+            <h5>Red Velvet</h5>
+            <h6>₦1,000</h6>
+            <div class="ratings">
+            <a href="#"><i class='bx bxs-star'></i></a>
+            <a href="#"><i class='bx bxs-star'></i></a>
+            <a href="#"><i class='bx bxs-star'></i></a>
+            <a href="#"><i class='bx bxs-star'></i></a>
+            <a href="#"><i class='bx bxs-star-half'></i></a>
+            </div>
+            </div>
+
+            <div class="row">
+                <div class="row-img">
+                <img src="images/vc.png">
+                </div>
+                <h5>Vanilla Cake</h5>
+                <h6>₦1,000</h6>
+                <div class="ratings">
+                <a href="#"><i class='bx bxs-star'></i></a>
+                <a href="#"><i class='bx bxs-star'></i></a>
+                <a href="#"><i class='bx bxs-star'></i></a>
+                <a href="#"><i class='bx bxs-star'></i></a>
+                <a href="#"><i class='bx bxs-star-half'></i></a>
+                </div>
+                </div>
+
+</div>
+<div class="menu-btnn">
+    <a href="contact.html" class="btn">Place an order</a>
+</div>
+</section>
+
+    
+    <!--Newsletter-->
+    <section class="newsletter">
+        <div class="center-text">
+            <h2>Subscribe Newsletter</h2>
+        </div>
+        <form action="">
+            <input type="email" name="Email" placeholder="Enter your email..." class="email" required>
+            <input type="submit" value="Subscribe" class="btn">
+        </form>
+    </section>
+
+    <!--Contact-->
+    <section class="contact" id="contact">
+        <div class="contact-box">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png">
+            </a>
+            <div class="icons">
+                <a href="https://facebook.com"><i class='bx bxl-facebook'></i></a>
+                <a href="https://instagram.com"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://twitter.com"><i class='bx bxl-twitter'></i></a>
+                <a href="https://youtube.com"><i class='bx bxl-youtube'></i></a>
+            </div>
+        </div>
+        <div class="contact-box">
+            <h3>Links</h3>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </div>
+
+        <div class="contact-box">
+            <h3>Our Menu</h3>
+            <li><a href="menu.html">Food</a></li>
+            <li><a href="menu.html">Drink</a></li>
+            <li><a href="menu.html">Fruit</a></li>
+            <li><a href="menu.html">Baked</a></li>
+        </div>
+
+        
+        <div class="contact-box">
+            <h3>Support</h3>
+            <li><a href="terms.html">Terms and Conditions</a></li>
+            <li><a href="https://policies.google.com/privacy">Privacy Policies</a></li>
+        </div>
+
+    </section>
+
+    <!--Copyright-->
+    <div class="copyright">
+        <p>Made by Jegzy<i class="bx bxs-heart"></i>.</p>
+    </div>
+
+    <div>    
+        <a class="whats-app" href="https://wa.me/qr/NQP6JA7VM7UBK1" target="_blank">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a> 
+    </div>   
+    
+    <!--js file link-->
+    <script src="script.js"></script>
+
+
+</body>
+</html>
